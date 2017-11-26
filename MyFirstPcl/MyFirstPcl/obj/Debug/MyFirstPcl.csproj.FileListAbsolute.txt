@@ -51,3 +51,5 @@ C:\Users\nitin\source\repos\MyFirstPcl\MyFirstPcl\MyFirstPcl\obj\Debug\MyFirstPc
 C:\Users\nitin\source\repos\MyFirstPcl\MyFirstPcl\MyFirstPcl\obj\Debug\MyFirstPcl.Views.MyMasterDetailPageMaster.xaml.g.cs
 C:\Users\nitin\source\repos\MyFirstPcl\MyFirstPcl\MyFirstPcl\obj\Debug\MyFirstPcl.Views.MyMasterDetailPageDetail.xaml.g.cs
 C:\Users\nitin\source\repos\MyFirstPcl\MyFirstPcl\MyFirstPcl\obj\Debug\MyFirstPcl.Views.Branchdetails.xaml.g.cs
+C:\Users\nitin\source\repos\MyFirstPcl\MyFirstPcl\MyFirstPcl\obj\Debug\MyFirstPcl.Views.moviedetailpage.xaml.g.cs
+C:\Users\nitin\source\repos\MyFirstPcl\MyFirstPcl\MyFirstPcl\obj\Debug\MyFirstPcl.Views.moviepagenew.xaml.g.cs

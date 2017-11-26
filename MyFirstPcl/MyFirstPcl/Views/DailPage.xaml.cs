@@ -20,6 +20,11 @@ namespace MyFirstPcl.Views
         private void ButtonClicked(object sender, EventArgs e)
         {
             Device.OpenUri(new Uri("tel://" + entryName.Text));
+
         }
+        //private void ButtonClicked(object sender, EventArgs e)
+        //{
+        //    Device.OpenUri(new Uri("www.ggogle.com"));
+        //}
     }
 }

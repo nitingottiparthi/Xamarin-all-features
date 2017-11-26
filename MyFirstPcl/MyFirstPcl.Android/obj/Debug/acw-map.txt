@@ -2,6 +2,10 @@ MyFirstPcl.Droid.MainActivity, MyFirstPcl.Android;md5281fb49566d5eb94f801e60436d
 MyFirstPcl.Droid.MainActivity, MyFirstPcl.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5281fb49566d5eb94f801e60436d77251.MainActivity
 MyFirstPcl.Droid.MainActivity;md5281fb49566d5eb94f801e60436d77251.MainActivity
 myfirstpcl.droid.MainActivity;md5281fb49566d5eb94f801e60436d77251.MainActivity
+MyFirstPcl.Droid.SplashActivity, MyFirstPcl.Android;md5281fb49566d5eb94f801e60436d77251.SplashActivity
+MyFirstPcl.Droid.SplashActivity, MyFirstPcl.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5281fb49566d5eb94f801e60436d77251.SplashActivity
+MyFirstPcl.Droid.SplashActivity;md5281fb49566d5eb94f801e60436d77251.SplashActivity
+myfirstpcl.droid.SplashActivity;md5281fb49566d5eb94f801e60436d77251.SplashActivity
 Android.Support.Design.Widget.Snackbar/SnackbarActionClickImplementor, Xamarin.Android.Support.Design;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar+SnackbarActionClickImplementor, Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;android.support.design.widget.Snackbar_SnackbarActionClickImplementor
 Android.Support.Design.Widget.Snackbar.SnackbarActionClickImplementor;android.support.design.widget.Snackbar_SnackbarActionClickImplementor

@@ -58,6 +58,7 @@ namespace MyFirstPcl.Views
 
         private void LogoutClicked(object sender, EventArgs e)
         {
+
             App.Current.MainPage = new NavigationPage(new MyGridPage());
         }
     }

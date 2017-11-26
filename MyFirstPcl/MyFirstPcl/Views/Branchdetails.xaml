@@ -14,45 +14,51 @@
     </ListView.ItemTemplate>-->
     
     <!--Custom View Cells-->
-    <ListView x:Name="lstMyList">
+    <StackLayout>
+        <SearchBar x:Name="searchName" TextChanged="search" TextColor="Black" FontSize="15"></SearchBar>
+        <ListView x:Name="lstMyList" IsPullToRefreshEnabled="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                    <Grid Padding="10,20,0,5" >
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="20*"/>
-                            <ColumnDefinition Width="20*"/>
-                            <ColumnDefinition Width="20*"/>
-                        </Grid.ColumnDefinitions>
-                        
-                        
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="20*"/>
-                            <RowDefinition Height="20*"/>
-                            <RowDefinition Height="20*"/>                    
-
-                        </Grid.RowDefinitions>
-                        <Label  Text="{Binding name}" FontSize="20" TextColor="Black" Grid.Row="0" Grid.Column="0" />
-                        <Label  Text="{Binding Id}" FontSize="20" TextColor="Black" Grid.Row="0" Grid.Column="1"/>
-                        <Label Text="{Binding Branch}" FontSize="20" TextColor="Black" Grid.Row="0" Grid.Column="2"/>
-                        <Label  Text="{Binding Result}" FontSize="20" TextColor="Black" Grid.Row="1" Grid.Column="0"/> 
-                        <Label  Text="{Binding Student}" FontSize="20" TextColor="Black" Grid.Row="1" Grid.Column="1"/> 
-
-                        <Label Text="{Binding Subject}" FontSize="20" TextColor="Black" Grid.Row="1" Grid.Column="2"/>
-                        <Label  Text="{Binding Tutor}" FontSize="20" TextColor="Black" Grid.Row="2" Grid.Column="0"/>
-                        <Label  Text="{Binding FirstRank}" FontSize="20" TextColor="Black" Grid.Row="2" Grid.Column="1"/>
-                        <Label  Text="{Binding Sports}" FontSize="20" TextColor="Black" Grid.Row="2" Grid.Column="2"/>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Delete" CommandParameter="{Binding id}" Clicked="DeleteItem"/>
+                            <MenuItem Text="Details" CommandParameter="{Binding id}" Clicked="ViewDetails"/>
+                        </ViewCell.ContextActions>
+                        <Grid Padding="10,20,0,5" >
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20*"/>
+                                <ColumnDefinition Width="20*"/>
+                                <ColumnDefinition Width="20*"/>
+                            </Grid.ColumnDefinitions>
 
 
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+                                <RowDefinition Height="20*"/>
+
+                            </Grid.RowDefinitions>
+                            <Label  Text="{Binding name}" FontSize="20" TextColor="Black" Grid.Row="0" Grid.Column="0" />
+                            <Label  Text="{Binding Id}" FontSize="20" TextColor="Black" Grid.Row="0" Grid.Column="1"/>
+                            <Label Text="{Binding Branch}" FontSize="20" TextColor="Black" Grid.Row="0" Grid.Column="2"/>
+                            <Label  Text="{Binding Result}" FontSize="20" TextColor="Black" Grid.Row="1" Grid.Column="0"/>
+                            <Label  Text="{Binding Student}" FontSize="20" TextColor="Black" Grid.Row="1" Grid.Column="1"/>
+
+                            <Label Text="{Binding Subject}" FontSize="20" TextColor="Black" Grid.Row="1" Grid.Column="2"/>
+                            <Label  Text="{Binding Tutor}" FontSize="20" TextColor="Black" Grid.Row="2" Grid.Column="0"/>
+                            <Label  Text="{Binding FirstRank}" FontSize="20" TextColor="Black" Grid.Row="2" Grid.Column="1"/>
+                            <Label  Text="{Binding Sports}" FontSize="20" TextColor="Black" Grid.Row="2" Grid.Column="2"/>
 
 
 
-                    </Grid>
-                        
+
+
+                        </Grid>
+
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+    </StackLayout>
 
-    
 </ContentPage>
