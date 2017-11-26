@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstPcl.Views.MyGridPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Padding="10,20,0,5" VerticalOptions="FillAndExpand">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30*"/>
+                    <ColumnDefinition Width="50*"/>
+                    <ColumnDefinition Width="20*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="25*"/>
+                </Grid.RowDefinitions>
+                <Label x:Name="lbl1" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="0" Grid.Column="0"/>
+                <Label x:Name="lbl2" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="0" Grid.Column="1"/>
+                <Label x:Name="lbl3" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="0" Grid.Column="2"/>
+                <Label x:Name="lbl4" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="1" Grid.Column="0"/>
+                <Label x:Name="lbl5" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="1" Grid.Column="1"/>
+                <Label x:Name="lbl6" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="1" Grid.Column="2"/>
+                <Label x:Name="lbl7" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="2" Grid.Column="0"/>
+                <Label x:Name="lbl8" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="2" Grid.Column="1"/>
+                <Label x:Name="lbl9" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="2" Grid.Column="2"/>
+                <Label x:Name="lbl10" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="3" Grid.Column="0"/>
+                <Label x:Name="lbl11" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="3" Grid.Column="1"/>
+                <Label x:Name="lbl12" Text="Hello" FontFamily="20" TextColor="Green" Grid.Row="3" Grid.Column="2"/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

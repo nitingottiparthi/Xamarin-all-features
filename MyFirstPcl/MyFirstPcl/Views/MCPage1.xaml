@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstPcl.Views.MCPage1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblMyName" Text="Nitin" TextColor="Black" FontSize="15" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnNext" Text="Next" BackgroundColor="Blue" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="GoToNextPage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

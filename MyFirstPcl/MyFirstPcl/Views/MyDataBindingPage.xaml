@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstPcl.Views.MyDataBindingPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="toolLogout" Text="Logout" Clicked="LogoutClicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Welcome to Xamarin Forms!" />
+                <ListView x:Name="listFirstExample" HasUnevenRows="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid>
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="ItemTapped"/>
+                                    </Grid.GestureRecognizers>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="75*"/>
+                                        <ColumnDefinition Width="25*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="{Binding product_name}" TextColor="Black" FontSize="20" HorizontalOptions="CenterAndExpand" Grid.Row="0" Grid.Column="0">
+                                        <!--<Label.GestureRecognizers>
+                                            
+                                        </Label.GestureRecognizers>-->
+                                    </Label>
+                                    <Label Text="{Binding sku}" TextColor="Black" FontSize="20" Grid.Row="0" Grid.Column="1"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

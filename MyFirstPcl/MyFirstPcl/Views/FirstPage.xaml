@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyFirstPcl.Views.FirstPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Welcome to Xamarin Forms!" TextColor="Red" BackgroundColor="Yellow" HorizontalOptions="CenterAndExpand" FontSize="20" VerticalOptions="CenterAndExpand"/>
+                <Entry x:Name="entryName" BackgroundColor="Blue" TextColor="White" FontSize="16" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Completed="CompletedEvent" Keyboard="Numeric"/>
+                <Button x:Name="btnSubmit" BackgroundColor="Brown" TextColor="White" Text="Submit" Clicked="ButtonClicked"/>
+                <Label Text="Welcome to Xamarin Forms!" TextColor="Red" BackgroundColor="Yellow" HorizontalOptions="CenterAndExpand" FontSize="20" VerticalOptions="CenterAndExpand"/>
+                <Entry x:Name="entryName1" BackgroundColor="Blue" TextColor="White" FontSize="16" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" TextChanged="SecondTextChnage"/>
+                <Button x:Name="btnSubmit1" BackgroundColor="Brown" TextColor="White" Text="Submit"/>
+                <Label Text="Welcome to Xamarin Forms!" TextColor="Red" BackgroundColor="Yellow" HorizontalOptions="CenterAndExpand" FontSize="20" VerticalOptions="CenterAndExpand"/>
+                <Entry x:Name="entryName2" BackgroundColor="Blue" TextColor="White" FontSize="16" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Button x:Name="btnSubmit2" BackgroundColor="Brown" TextColor="White" Text="Submit"/>
+                <Label Text="Welcome to Xamarin Forms!" TextColor="Red" BackgroundColor="Yellow" HorizontalOptions="CenterAndExpand" FontSize="20" VerticalOptions="CenterAndExpand"/>
+                <Entry x:Name="entryName3" BackgroundColor="Blue" TextColor="White" FontSize="16" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Button x:Name="btnSubmit3" BackgroundColor="Brown" TextColor="White" Text="Submit"/>
+                <Label Text="Welcome to Xamarin Forms!" TextColor="Red" BackgroundColor="Yellow" HorizontalOptions="CenterAndExpand" FontSize="20" VerticalOptions="CenterAndExpand"/>
+                <Entry x:Name="entryName4" BackgroundColor="Blue" TextColor="White" FontSize="16" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Button x:Name="btnSubmit4" BackgroundColor="Brown" TextColor="White" Text="Submit"/>
+                <Label Text="Welcome to Xamarin Forms!" TextColor="Red" BackgroundColor="Yellow" HorizontalOptions="CenterAndExpand" FontSize="20" VerticalOptions="CenterAndExpand"/>
+                <Entry x:Name="entryName5" BackgroundColor="Blue" TextColor="White" FontSize="16" WidthRequest="120" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+                <Button x:Name="btnSubmit5" BackgroundColor="Brown" TextColor="White" Text="Submit"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
+    <!--StackLayout
+    Grid-->
